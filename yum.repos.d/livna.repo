@@ -1,0 +1,6 @@
+[livna]
+name=Livna for Fedora 12 - ppc
+baseurl=http://rpm.livna.org/repo/12/ppc/
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-livna

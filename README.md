@@ -1,2 +1,3 @@
-# fc12ppc_install-repos
-Installs working yum repo configs / GPG keys on any Fedora 12 PowerPC deployment
+fc12ppc-repoconfig
+
+Fedora 12 Linux for PowerPC (ppc, ppc64) YUM Repos Install Script

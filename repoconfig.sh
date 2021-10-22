@@ -11,5 +11,6 @@ rm -fv /etc/yum.repos.d/*
 cp -v yum.repos.d/* /etc/yum.repos.d/
 yum clean all
 yum makecache
-yum -y -x fedora-release -x rpmfusion-free-release -x rpmfusion-nonfree-release -x livna-release update
-echo "Add exclude=fedora-release rpmfusion-free-release rpmfusion-nonfree-release livna-release to file /etc/yum.conf and REBOOT"
+yum -y -x fedora-release -x rpmfusion-free-release -x rpmfusion-nonfree-release -x livna-release -x remi-release update
+echo "exclude=fedora-release rpmfusion-free-release rpmfusion-nonfree-release livna-release remi-release" >> /etc/yum.conf
+echo REBOOT

@@ -1,6 +1,6 @@
 [rpmfusion-free]
 name=RPM Fusion for Fedora 12 - Free - ppc
-baseurl=http://mirror1.hs-esslingen.de/pub/Mirrors/archive.rpmfusion.org/free-archive/fedora/releases/12/Everything/ppc/os/
+baseurl=http://mirror.neu.edu.cn/rpmfusion/free/fedora/releases/12/Everything/ppc/os/
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-free-fedora-12-primary

@@ -1,6 +1,6 @@
 [rpmfusion-free-updates-testing]
 name=RPM Fusion for Fedora 12 - Free - Updates - Testing - ppc
-baseurl=http://mirror.neu.edu.cn/rpmfusion/free/fedora/updates/testing/12/ppc/
+baseurl=http://mirror1.hs-esslingen.de/pub/Mirrors/archive.rpmfusion.org/free-archive/fedora/updates/testing/12/ppc/
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-free-fedora-12-primary

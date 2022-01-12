@@ -1,4 +1,4 @@
-# fedora-12-ppc-reposcript
+# fc12ppc-reposcript
 
 Fedora 12 (Linux) for PowerPC (ppc/ppc64) YUM Repos Script
 

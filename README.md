@@ -16,18 +16,21 @@ INSTRUCTIONS:
 
 3. Run script with root privileges: sudo ./reposcript.sh
 
-Repositories Included/Installed:
-  Fedora 12 (Base)
-  Fedora 12 Updates
-  Fedora 12 Updates Testing
-  Livna Repo
-  Remi Repo
-  RPM Fusion Free
-  RPM Fusion Free Updates
-  RPM Fusion Free Updates Testing
-  RPM Fusion Nonfree
-  RPM Fusion Nonfree Updates
-  RPM Fusion Nonfree Updates Testing
+
+REPOSITORIES INCLUDED:
+
+Fedora 12 (Base)
+Fedora 12 Updates
+Fedora 12 Updates Testing
+Livna Repo
+Remi Repo
+RPM Fusion Free
+RPM Fusion Free Updates
+RPM Fusion Free Updates Testing
+RPM Fusion Nonfree
+RPM Fusion Nonfree Updates
+RPM Fusion Nonfree Updates Testing
+
 
 NOTE:
 

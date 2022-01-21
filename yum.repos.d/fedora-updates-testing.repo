@@ -1,6 +1,13 @@
-[fedora-updates-testing]
+[fedora-updates-testing-ppc]
 name=Fedora 12 - Updates - Testing - ppc
 baseurl=http://archive.fedoraproject.org/pub/archive/fedora/linux/updates/testing/12/ppc/
-enabled=1
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-12-primary
+
+[fedora-updates-testing-ppc64]
+name=Fedora 12 - Updates - Testing - ppc64
+baseurl=http://archive.fedoraproject.org/pub/archive/fedora/linux/updates/testing/12/ppc64/
+enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-12-primary

@@ -1,6 +1,13 @@
-[fedora-updates]
+[fedora-updates-ppc]
 name=Fedora 12 - Updates - ppc
 baseurl=http://archive.fedoraproject.org/pub/archive/fedora/linux/updates/12/ppc/
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-12-primary
+
+[fedora-updates-ppc64]
+name=Fedora 12 - Updates - ppc64
+baseurl=http://archive.fedoraproject.org/pub/archive/fedora/linux/updates/12/ppc64/
 enabled=1
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-12-primary

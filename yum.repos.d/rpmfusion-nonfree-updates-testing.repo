@@ -1,6 +1,13 @@
-[rpmfusion-nonfree-updates-testing]
+[rpmfusion-nonfree-updates-testing-ppc]
 name=RPM Fusion for Fedora 12 - Nonfree - Updates - Testing - ppc
 baseurl=http://mirror1.hs-esslingen.de/pub/Mirrors/archive.rpmfusion.org/nonfree-archive/fedora/updates/testing/12/ppc/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-nonfree-fedora-12-primary
+
+[rpmfusion-nonfree-updates-testing-ppc64]
+name=RPM Fusion for Fedora 12 - Nonfree - Updates - Testing - ppc64
+baseurl=http://mirror1.hs-esslingen.de/pub/Mirrors/archive.rpmfusion.org/nonfree-archive/fedora/updates/testing/12/ppc64/
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-nonfree-fedora-12-primary

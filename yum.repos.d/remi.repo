@@ -25,3 +25,4 @@ baseurl=http://rpms.remirepo.net/archives/fedora/12/test/ppc64/
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-remi
+

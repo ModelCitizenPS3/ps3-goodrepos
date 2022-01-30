@@ -1,4 +1,4 @@
-# ppcrepos-fc12
+# goodrepos-fc12
 
 Fedora 12 ppc/ppc64 YUM Repos Script
 

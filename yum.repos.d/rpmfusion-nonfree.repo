@@ -1,14 +1,7 @@
-[rpmfusion-nonfree-ppc]
+[rpmfusion-nonfree]
 name=RPM Fusion for Fedora 12 - Nonfree - ppc
 baseurl=http://mirror1.hs-esslingen.de/pub/Mirrors/archive.rpmfusion.org/nonfree-archive/fedora/releases/12/Everything/ppc/os/
-enabled=0
-gpgcheck=1
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-nonfree-fedora-12-primary
-
-[rpmfusion-nonfree-ppc64]
-name=RPM Fusion for Fedora 12 - Nonfree - ppc64
-baseurl=http://mirror1.hs-esslingen.de/pub/Mirrors/archive.rpmfusion.org/nonfree-archive/fedora/releases/12/Everything/ppc64/os/
-enabled=0
+enabled=1
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-nonfree-fedora-12-primary
 

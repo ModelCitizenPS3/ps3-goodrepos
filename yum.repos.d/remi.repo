@@ -1,7 +1,7 @@
 [remi]
 name=Les RPM de remi pour Fedora 12 - ppc
 baseurl=http://rpms.remirepo.net/archives/fedora/12/remi/ppc/
-enabled=1
+enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-remi
 

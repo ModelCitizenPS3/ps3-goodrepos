@@ -9,9 +9,9 @@ INSTRUCTIONS:
 
 1. Clone repo: git clone git://github.com/ModelCitizenPS3/good-fc12.git (Don't use the https link, it won't work. Fedora 12 SSL certs are too old.)
 
-2. Enter cloned directory: cd ppcrepos-fc12
+2. Enter cloned directory: cd goodrepos-fc12
 
-3. Run script with root privileges: sudo ./ppcrepos.sh
+3. Run script with root privileges: sudo ./goodrepos.sh
 
 
 REPOSITORIES INCLUDED:

@@ -1,25 +1,20 @@
-# goodrepos-fc12ppc
+# ps3-goodrepos
 
-Fedora 12 ppc/ppc64 YUM Repos Script
+I wrote this script to run on my Playstation 3 after a fresh install of Fedora 12 for PowerPC (via the PS3's OtherOS featue). It replaces all original (broken) yum repo configs file (including GPG-KEYS) with working ones. It then invokes yum to rebuild its metadata cache from the updated repo configs. Lastly, it executes a yum system update.
 
-This script is meant to be run on a fresh install of Fedora 12 for PowerPC. It completely replaces all broken YUM repo configs (left over from OS install) with working ones. It also installs all corresponding GPG-KEY files for the repos. It then makes YUM rebuild it's metadata cache and executes a system update.
+## INSTRUCTIONS
 
-
-INSTRUCTIONS:
-
-1. Clone repo: git clone git://github.com/ModelCitizenPS3/good-fc12.git (Don't use the https link, it won't work. Fedora 12 SSL certs are too old.)
+1. Clone git repo to Playstation 3 (running Fedora 12 for PowerPC) anywhere in file system: `git clone https://ModelCitizenPS3/ps3-goodrepos.git`
 
 2. Enter cloned directory: cd goodrepos-fc12
 
 3. Run script with root privileges: sudo ./goodrepos.sh
 
-
-REPOSITORIES INCLUDED:
+## REPOSITORIES INCLUDED
 
 Fedora 12 (Base), Fedora 12 Updates, Fedora 12 Updates Testing, Livna Repo, Remi Repo, RPM Fusion Free, RPM Fusion Free Updates, RPM Fusion Free Updates Testing, RPM Fusion Nonfree, RPM Fusion Nonfree Updates, RPM Fusion Nonfree Updates Testing
 
-
-NOTE:
+## NOTE
 
 Repos designated as "testing" not enabled by default.
 

@@ -1,8 +1,11 @@
 #!/bin/bash
 #
-# 1. Install/Replace yum gpg keys.
-# 2. Install/Replace yum repo files.
-# 3. Perform update.
+# Script to remove (broken) repository configs installed with Fedora 12 (ppc) and replace them with good configs.
+# Also executes yum system update.
+#
+# RUN SCRIPT AS ROOT: sudo ./ps3-goodrepos.sh
+#
+# Note: Only the fedora and fedora-updates repos are enabled by default. Enable the others yourself if you wish - or don't.
 #
 rm -fv /etc/pki/rpm-gpg/*
 cp -v rpm-gpg/RPM-GPG-KEY-fedora-12-primary /etc/pki/rpm-gpg/

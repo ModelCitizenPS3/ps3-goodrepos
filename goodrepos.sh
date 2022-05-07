@@ -4,7 +4,6 @@
 # 2. Install/Replace yum repo files.
 # 3. Perform update.
 #
-
 rm -fv /etc/pki/rpm-gpg/*
 cp -v rpm-gpg/RPM-GPG-KEY-fedora-12-primary /etc/pki/rpm-gpg/
 cp -v rpm-gpg/RPM-GPG-KEY-livna /etc/pki/rpm-gpg/

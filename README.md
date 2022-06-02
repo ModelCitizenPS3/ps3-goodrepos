@@ -1,6 +1,6 @@
 # ps3-goodrepos
 
-I wrote this script to run on my Playstation 3 (OtherOS) after a fresh install of Fedora 12 (ppc). It deletes all broken yum repo configs (including all RPM-GPG keys) installed by Fedora and replaces them with ones that work. It then invokes yum to rebuild its cache and executes a system update.
+I wrote this script to run on my Playstation 3 (OtherOS) after a fresh install of Fedora 12 (ppc64). It deletes all broken yum repo configs (including all RPM-GPG keys) installed by Fedora and replaces them with ones that work. It then invokes yum to rebuild its cache and executes a system update.
 
 ## INSTRUCTIONS
 

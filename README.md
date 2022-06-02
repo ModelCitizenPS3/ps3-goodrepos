@@ -31,4 +31,4 @@ I use this script to speed up Fedora 12 (re)deployment on my (jailbroke) Playsta
 
 Yes I bought my PS3 its own domain name... and its up 24/7... because I'm nuts.
 
-**The Model Citizen**
+### The Model Citizen

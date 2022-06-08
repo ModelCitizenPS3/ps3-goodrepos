@@ -7,7 +7,7 @@
 #
 # Note: Only the fedora and fedora-updates repos are enabled by default. Enable the others yourself if you wish - or don't.
 #
-if [ "$(id -u)" != 0 ]; then
+if [ $(id -u) != 0 ]; then
     printf "Please run as root.\n"
     exit 1
 fi

@@ -25,7 +25,7 @@ I wrote this script to run on my Playstation 3 (OtherOS) after a fresh install o
 
 ## NOTE
 
-Only repositories "Fedora 12 ppc" and "Fedora 12 Updates ppc" are enabled by default. You will have to enable the others manually, should you so choose.
+Only repositories "Fedora 12 ppc", "Fedora 12 Updates ppc", and "Fedora 12 Updates Testing ppc" are enabled by default. You will have to enable the others manually, should you so choose.
 
 I use this script to speed up Fedora 12 (re)deployment on my (jailbroke) Playstation 3 web server at http://ps3linux.net.
 

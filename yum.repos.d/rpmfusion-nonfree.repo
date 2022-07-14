@@ -1,7 +1,21 @@
 [rpmfusion-nonfree]
-name=RPM Fusion for Fedora 12 - Nonfree - ppc
-baseurl=http://mirror1.hs-esslingen.de/pub/Mirrors/archive.rpmfusion.org/nonfree-archive/fedora/releases/12/Everything/ppc/os/
+name=RPM Fusion for Fedora $releasever - Nonfree - $basearch
+baseurl=http://mirror1.hs-esslingen.de/pub/Mirrors/archive.rpmfusion.org/nonfree-archive/fedora/releases/$releasever/Everything/$basearch/os/
 enabled=0
 gpgcheck=1
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-nonfree-fedora-12-primary
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-nonfree-fedora-$releasever-primary
+
+[rpmfusion-nonfree-SRPMS]
+name=RPM Fusion for Fedora $releasever - Nonfree - SRPMS
+baseurl=http://mirror1.hs-esslingen.de/pub/Mirrors/archive.rpmfusion.org/nonfree-archive/fedora/releases/$releasever/Everything/source/SRPMS/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-nonfree-fedora-$releasever-primary
+
+[rpmfusion-nonfree-debug]
+name=RPM Fusion for Fedora $releasever - Nonfree - debug
+baseurl=http://mirror1.hs-esslingen.de/pub/Mirrors/archive.rpmfusion.org/nonfree-archive/fedora/releases/$releasever/Everything/$basearch/debug/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-nonfree-fedora-$releasever-primary
 

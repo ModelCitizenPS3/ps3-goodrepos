@@ -32,8 +32,6 @@ cp -v yum.repos.d/rpmfusion-nonfree.repo /etc/yum.repos.d/
 cp -v yum.repos.d/rpmfusion-nonfree-updates.repo /etc/yum.repos.d/
 cp -v yum.repos.d/rpmfusion-nonfree-updates-testing.repo /etc/yum.repos.d/
 
-echo "exclude=fedora-release rpmfusion-free-release rpmfusion-nonfree-release livna-release remi-release" >> /etc/yum.conf
-
 yum clean all
 yum makecache
 yum -y update

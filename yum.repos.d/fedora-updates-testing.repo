@@ -4,6 +4,7 @@ baseurl=http://archive.fedoraproject.org/pub/archive/fedora/linux/updates/testin
 enabled=1
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-$releasever-primary
+exclude=fedora-release
 
 [fedora-updates-testing-SRPMS]
 name=Fedora $releasever - SRPMs - Updates - Testing - $basearch
@@ -11,6 +12,7 @@ baseurl=http://archive.fedoraproject.org/pub/archive/fedora/linux/updates/testin
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-$releasever-primary
+exclude=fedora-release
 
 [fedora-updates-testing-debug]
 name=Fedora $releasever - debug - Updates - Testing - $basearch
@@ -18,4 +20,5 @@ baseurl=http://archive.fedoraproject.org/pub/archive/fedora/linux/updates/testin
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-$releasever-primary
+exclude=fedora-release
 

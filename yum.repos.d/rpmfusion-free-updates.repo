@@ -4,6 +4,7 @@ baseurl=http://mirror1.hs-esslingen.de/pub/Mirrors/archive.rpmfusion.org/free-ar
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-free-fedora-$releasever-primary
+exclude=rpmfusion-free-release
 
 [rpmfusion-free-updates-SRPMS]
 name=RPM Fusion for Fedora $releasever - Free - Updates - SRPMS
@@ -11,6 +12,7 @@ baseurl=http://mirror1.hs-esslingen.de/pub/Mirrors/archive.rpmfusion.org/free-ar
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-free-fedora-$releasever-primary
+exclude=rpmfusion-free-release
 
 [rpmfusion-free-updates-debug]
 name=RPM Fusion for Fedora $releasever - Free - Updates - debug
@@ -18,4 +20,5 @@ baseurl=http://mirror1.hs-esslingen.de/pub/Mirrors/archive.rpmfusion.org/free-ar
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-free-fedora-$releasever-primary
+exclude=rpmfusion-free-release
 

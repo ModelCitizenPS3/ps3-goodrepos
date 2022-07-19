@@ -4,6 +4,7 @@ baseurl=http://rpm.livna.org/repo/$releasever/ppc64/
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-livna
+exclude=livna-release
 
 [livna-src]
 name=Livna for Fedora $releasever - SRPMS
@@ -11,6 +12,7 @@ baseurl=http://rpm.livna.org/repo/$releasever/SRPMS/
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-livna
+exclude=livna-release
 
 [livna-debug]
 name=Livna for Fedora $releasever - debug
@@ -18,4 +20,5 @@ baseurl=http://rpm.livna.org/repo/$releasever/ppc64/debug/
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-livna
+exclude=livna-release
 

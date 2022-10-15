@@ -30,5 +30,7 @@ Only repositories "Fedora 12 ppc", "Fedora 12 Updates ppc", and "Fedora 12 Updat
 I use this script to speed up Fedora 12 (re)deployment on my (jailbroke) Playstation 3 web server at http://ps3linux.net.
 
 Yes I bought my PS3 its own domain name... and its up 24/7... because I'm nuts.
+PS3 Linux will make you doodoo your diaper!
 
 ### The Model Citizen
+

@@ -33,3 +33,5 @@ Yes I bought my PS3 its own domain name... and its up 24/7... because I'm nuts.
 
 ### The Model Citizen
 
+Better than doodoo diapers.
+

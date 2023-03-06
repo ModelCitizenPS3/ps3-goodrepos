@@ -1,22 +1,22 @@
 [livna]
-name=Livna for Fedora $releasever - ppc64
-baseurl=http://rpm.livna.org/repo/$releasever/ppc64/
+name=Livna for Fedora 12 - ppc64
+baseurl=http://rpm.livna.org/repo/12/ppc64/
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-livna
 exclude=livna-release
 
 [livna-src]
-name=Livna for Fedora $releasever - SRPMS
-baseurl=http://rpm.livna.org/repo/$releasever/SRPMS/
+name=Livna for Fedora 12 - SRPMS
+baseurl=http://rpm.livna.org/repo/12/SRPMS/
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-livna
 exclude=livna-release
 
 [livna-debug]
-name=Livna for Fedora $releasever - debug
-baseurl=http://rpm.livna.org/repo/$releasever/ppc64/debug/
+name=Livna for Fedora 12 - debug
+baseurl=http://rpm.livna.org/repo/12/ppc64/debug/
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-livna

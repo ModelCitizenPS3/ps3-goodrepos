@@ -1,14 +1,14 @@
 [remi]
-name=Les RPM de remi pour Fedora $releasever - $basearch
-baseurl=http://rpms.remirepo.net/archives/fedora/$releasever/remi/$basearch/
+name=Les RPM de remi pour Fedora 12 - ppc64
+baseurl=http://rpms.remirepo.net/archives/fedora/12/remi/ppc64/
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-remi
 exclude=remi-release
 
 [remi-test]
-name=Les RPM de remi en test pour Fedora $releasever - $basearch
-baseurl=http://rpms.remirepo.net/archives/fedora/$releasever/test/$basearch/
+name=Les RPM de remi en test pour Fedora 12 - ppc64
+baseurl=http://rpms.remirepo.net/archives/fedora/12/test/ppc64/
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-remi

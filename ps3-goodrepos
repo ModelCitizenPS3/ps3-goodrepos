@@ -23,7 +23,6 @@ rm -fv /etc/yum.repos.d/*
 cp -v yum.repos.d/fedora.repo /etc/yum.repos.d/
 cp -v yum.repos.d/fedora-updates.repo /etc/yum.repos.d/
 cp -v yum.repos.d/fedora-updates-testing.repo /etc/yum.repos.d/
-cp -v yum.repos.d/livna.repo /etc/yum.repos.d/
 cp -v yum.repos.d/remi.repo /etc/yum.repos.d/
 cp -v yum.repos.d/rpmfusion-free.repo /etc/yum.repos.d/
 cp -v yum.repos.d/rpmfusion-free-updates.repo /etc/yum.repos.d/

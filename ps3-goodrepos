@@ -14,7 +14,6 @@ fi
 
 rm -fv /etc/pki/rpm-gpg/*
 cp -v rpm-gpg/RPM-GPG-KEY-fedora-12-primary /etc/pki/rpm-gpg/
-cp -v rpm-gpg/RPM-GPG-KEY-livna /etc/pki/rpm-gpg/
 cp -v rpm-gpg/RPM-GPG-KEY-remi /etc/pki/rpm-gpg/
 cp -v rpm-gpg/RPM-GPG-KEY-rpmfusion-free-fedora-12-primary /etc/pki/rpm-gpg/
 cp -v rpm-gpg/RPM-GPG-KEY-rpmfusion-nonfree-fedora-12-primary /etc/pki/rpm-gpg/

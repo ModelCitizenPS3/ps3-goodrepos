@@ -1,24 +1,24 @@
 [fedora-updates-testing]
-name=Fedora 12 - Updates - Testing - ppc
-baseurl=http://archive.fedoraproject.org/pub/archive/fedora/linux/updates/testing/12/ppc/
+name=Fedora $releasever - Updates - Testing - $basearch
+baseurl=http://archive.fedoraproject.org/pub/archive/fedora/linux/updates/testing/$releasever/$basearch/
 enabled=1
 gpgcheck=1
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-12-primary
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-$releasever-primary
 exclude=fedora-release
 
 [fedora-updates-testing-SRPMS]
-name=Fedora 12 - SRPMs - Updates - Testing - ppc
-baseurl=http://archive.fedoraproject.org/pub/archive/fedora/linux/updates/testing/12/SRPMS/
+name=Fedora $releasever - SRPMs - Updates - Testing - $basearch
+baseurl=http://archive.fedoraproject.org/pub/archive/fedora/linux/updates/testing/$releasever/SRPMS/
 enabled=0
 gpgcheck=1
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-12-primary
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-$releasever-primary
 exclude=fedora-release
 
 [fedora-updates-testing-debug]
-name=Fedora 12 - debug - Updates - Testing - ppc
-baseurl=http://archive.fedoraproject.org/pub/archive/fedora/linux/updates/testing/12/ppc/debug/
+name=Fedora $releasever - debug - Updates - Testing - $basearch
+baseurl=http://archive.fedoraproject.org/pub/archive/fedora/linux/updates/testing/$releasever/$basearch/debug/
 enabled=0
 gpgcheck=1
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-12-primary
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-$releasever-primary
 exclude=fedora-release
 

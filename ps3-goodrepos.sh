@@ -39,7 +39,7 @@ yum clean all
 yum makecache
 yum -y update
 
-printf "\nNEW KERNEL INSTALLED. YOU SHOULD REBOOT\n\nNOTE: If your PS3 freezes the first time you boot your new kernel (2.6.32.26), simply power off the PS3 and try booting the new kernel again.\nIt should boot fine after.\nI do not know why this is the case.\n\n"
+printf "\nNEW KERNEL INSTALLED. YOU SHOULD REBOOT!\n\nNOTE: Your PS3 may hang the first time it tries to boot the new kernel (2.6.32.26).\nIf this happens, turn off the PS3 by holding the power button and try booting the kernel again; it will work fine.\nI do not know why this is the case.\n\n"
 
 exit 0
 

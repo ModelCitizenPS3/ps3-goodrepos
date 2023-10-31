@@ -15,7 +15,6 @@ if [ $(id -u) != 0 ]; then
 fi
 
 cp -fv rpm-gpg/RPM-GPG-KEY-fedora-12-primary /etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-12-primary
-cp -fv rpm-gpg/RPM-GPG-KEY-remi /etc/pki/rpm-gpg/RPM-GPG-KEY-remi
 cp -fv rpm-gpg/RPM-GPG-KEY-rpmfusion-free-fedora-12-primary /etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-free-fedora-12-primary
 cp -fv rpm-gpg/RPM-GPG-KEY-rpmfusion-nonfree-fedora-12-primary /etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-nonfree-fedora-12-primary
 
@@ -26,7 +25,6 @@ fi
 cp -fv yum.repos.d/fedora.repo /etc/yum.repos.d/fedora.repo
 cp -fv yum.repos.d/fedora-updates.repo /etc/yum.repos.d/fedora-updates.repo
 cp -fv yum.repos.d/fedora-updates-testing.repo /etc/yum.repos.d/fedora-updates-testing.repo
-cp -fv yum.repos.d/remi.repo /etc/yum.repos.d/remi.repo
 cp -fv yum.repos.d/rpmfusion-free.repo /etc/yum.repos.d/rpmfusion-free.repo
 cp -fv yum.repos.d/rpmfusion-free-updates.repo /etc/yum.repos.d/rpmfusion-free-updates.repo
 cp -fv yum.repos.d/rpmfusion-free-updates-testing.repo /etc/yum.repos.d/rpmfusion-free-updates-testing.repo
@@ -39,7 +37,7 @@ yum clean all
 yum makecache
 yum -y update
 
-printf "\nNEW KERNEL INSTALLED. YOU SHOULD REBOOT!\n\nNOTE: Your PS3 may hang the first time it tries to boot the new kernel (2.6.32.26).\nIf this happens, turn off the PS3 by holding the power button and try booting the kernel again; it will work fine.\nI do not know why this is the case.\n\n"
+printf "\nNEW KERNEL INSTALLED - YOU SHOULD REBOOT\n\nNOTE: Your PS3 may hang the first time it boots your new kernel (2.6.32.26).\nIf this happens, power off the PS3 with the power button and try booting the kernel a second time. It will work fine.\nI do not know why this happens.\n\n"
 
 exit 0
 

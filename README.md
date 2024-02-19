@@ -15,7 +15,6 @@ I wrote this script to run on my Playstation 3 after a fresh install of Fedora 1
 - Fedora 12
 - Fedora 12 Updates
 - Fedora 12 Updates Testing
-- Remi
 - RPM Fusion Free for Fedora 12 (disabled by default)
 - RPM Fusion Free Updates for Fedora 12 (disabled by default)
 - RPM Fusion Free Updates Testing for Fedora 12 (empty - disabled by default)

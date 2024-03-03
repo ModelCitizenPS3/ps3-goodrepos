@@ -4,8 +4,8 @@ I wrote this script to run on my Playstation 3 after a fresh install of Fedora 1
 
 ## INSTRUCTIONS
 
-1. Make sure the network is configured/working in your Fedora 12 installation: `ping www.google.com` should get replies.
-2. Stock Fedora 12 cannot download from github (due to SSL/TLS incompatibility). Alternatively, you can download this script (archived) to your PS3 from my website instead: `wget http://www.ps3linux.net/ps3-filez/ps3-goodrepos.tar.bz2`
+1. Make sure the network is configured and working in your Fedora 12 installation: `ping www.google.com` should get replies.
+2. Unmodified Fedora 12 cannot download from github (due to SSL/TLS incompatibility). Alternatively, you can download this script (archived) to your PS3 from my website instead: `wget http://www.ps3linux.net/ps3-filez/ps3-goodrepos.tar.bz2`
 3. Extract script: `tar xvf ps3-goodrepos.tar.bz2`
 3. Enter script directory: `cd ps3-goodrepos/`
 4. Run script with root privileges: `sudo ./ps3-goodrepos.sh`
@@ -25,7 +25,7 @@ I wrote this script to run on my Playstation 3 after a fresh install of Fedora 1
 
 ## NOTE
 
-I use this script to speed up Fedora 12 (re)deployment on my (jailbroke) Playstation 3 web server at http://www.ps3linux.net.
+I use this script to speed up Fedora 12 (re)deployment on my (jailbroke) Playstation 3 web server at [http://www.ps3linux.net](http://www.ps3linux.net).
 
 Yes I bought my PS3 its own domain name... and its up 24/7... because I'm nuts.
 

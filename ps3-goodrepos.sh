@@ -3,11 +3,9 @@
 # Script to replace yum repo configs installed by Fedora 12 (ppc) with working configs.
 # Also invokes yum system update.
 #
-# RUN AS ROOT: sudo ./ps3-goodrepos.sh
-#
-# Note: Only the fedora, fedora-updates, fedora-updates-testing, and remi repos are enabled by default.
-# Enable the others (RPM Fusion and ps3linux repos) yourself by editing the files in /etc/yum.repos.d
-#
+# Note: Only the fedora, fedora-updates, and fedora-updates-testing are enabled by default.
+# Enable the others (RPM Fusion Free/Nonfree) by editing the files in /etc/yum.repos.d
+
 
 if [ $(id -u) != 0 ]; then
     printf "Please run as root.\n"
@@ -27,11 +25,8 @@ cp -fv yum.repos.d/fedora-updates.repo /etc/yum.repos.d/fedora-updates.repo
 cp -fv yum.repos.d/fedora-updates-testing.repo /etc/yum.repos.d/fedora-updates-testing.repo
 cp -fv yum.repos.d/rpmfusion-free.repo /etc/yum.repos.d/rpmfusion-free.repo
 cp -fv yum.repos.d/rpmfusion-free-updates.repo /etc/yum.repos.d/rpmfusion-free-updates.repo
-cp -fv yum.repos.d/rpmfusion-free-updates-testing.repo /etc/yum.repos.d/rpmfusion-free-updates-testing.repo
 cp -fv yum.repos.d/rpmfusion-nonfree.repo /etc/yum.repos.d/rpmfusion-nonfree.repo
 cp -fv yum.repos.d/rpmfusion-nonfree-updates.repo /etc/yum.repos.d/rpmfusion-nonfree-updates.repo
-cp -fv yum.repos.d/rpmfusion-nonfree-updates-testing.repo /etc/yum.repos.d/rpmfusion-nonfree-updates-testing.repo
-cp -fv yum.repos.d/ps3linux.repo /etc/yum.repos.d/ps3linux.repo
 
 yum clean all
 yum makecache
